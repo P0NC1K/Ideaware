@@ -1,0 +1,1044 @@
+html {
+}
+
+#navbar {
+    background-color: rgb(41, 46, 56);
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.text-color-white {
+    color: #fff !important;
+}
+
+.fs-08em {
+    font-size: 0.8em;
+}
+
+.fs-title {
+    font-size: 1.8vmax;
+}
+
+.r45 {
+    transform: rotateZ(45deg);
+}
+
+.logo-text {
+    font-weight: 600;
+    font-size: 34px;
+    color: #fff;
+    margin: 10px 0 0 20px;
+    text-decoration: none;
+}
+
+.questionMark {
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(177, 112, 31);
+    padding: 3px 15px;
+    /* border: 1px solid #000; */
+    border-radius: 500px;
+    background-color: rgb(255, 255, 105);
+    margin: 0 40px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+    .questionMark:hover {
+        box-shadow: 0 0 10px rgb(94, 94, 24);
+        border: none;
+        color: rgb(177, 112, 31);
+    }
+
+.questionMarkContainer {
+    margin-top: 70px;
+}
+
+.paddingStartCustom {
+    padding-left: 5vmax;
+}
+
+#Freedome {
+    background-image: url("../assets/MainBulbs.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.info-divider {
+    height: 35vw;
+}
+
+.mainText {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-align: center;
+}
+
+    .mainText div {
+    }
+
+.freedome {
+    color: rgb(126, 126, 126);
+}
+
+    .freedome h2 {
+        font-size: 54px;
+        font-weight: 300;
+    }
+
+        .freedome h2 span {
+            background: red;
+            background: -webkit-linear-gradient(220deg, blue, yellow, red);
+            background: -o-linear-gradient(220deg, blue, yellow, red);
+            background: -moz-linear-gradient(220deg, blue, yellow, red);
+            background: linear-gradient( 220deg, blue, yellow, red);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+.vendorLock, .hotPrototyping, .universalSoftware {
+    position: relative;
+}
+
+    .vendorLock div {
+        position: absolute;
+        font-size: 1vw;
+        top: 50%;
+        left: 2vw;
+        color: #fff;
+        font-weight: 100;
+    }
+
+        .vendorLock div h6 {
+            font-size: 1.2vw;
+            color: rgb(229, 215, 149);
+        }
+
+.form {
+    margin-top: 70px;
+    padding: 20px;
+    background-color: #000;
+}
+
+    .form h3 {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .form h6 {
+        color: #fff;
+        font-size: 9px;
+        font-weight: 200;
+    }
+
+    .form button {
+        border-radius: 50px;
+        background-color: rgb(175, 199, 75);
+        border-color: rgb(175, 199, 75);
+        color: rgb(92, 105, 42);
+        padding: 5px 20px;
+    }
+
+.questionMarkContainer {
+    margin-top: 70px;
+}
+
+.hotPrototyping div {
+    position: absolute;
+    font-size: 0.8vw;
+    top: 45%;
+    left: 23.5vw;
+    color: #fff;
+    font-weight: 100;
+}
+
+.hotPrototyping img, .universalSoftware img {
+    width: 100%;
+}
+
+.hotPrototyping div h6 {
+    font-size: 1vw;
+    color: rgb(208, 106, 125);
+}
+
+.universalSoftwareContainer {
+    vertical-align: bottom;
+}
+
+.smallInfo-divider {
+    height: 15vw;
+}
+
+.universalSoftware div h6 {
+    font-size: 1.2vw;
+    color: rgb(137, 191, 233);
+}
+
+.universalSoftware div {
+    position: absolute;
+    font-size: 0.8vw;
+    top: 35%;
+    left: 33vw;
+    color: #fff;
+    font-weight: 100;
+}
+
+.Engineers {
+    background-color: rgb(41, 46, 56);
+    position: relative;
+    color: #fff;
+    padding: 20px 0;
+}
+
+    .Engineers .roles .role {
+        margin-top: 20px;
+    }
+
+        .Engineers .roles .role img {
+            width: calc(7vw - 35px);
+        }
+
+        .Engineers .roles .role p {
+            font-weight: 500;
+            line-height: 17px;
+            padding: 4px 8px;
+        }
+
+    .Engineers .bulbLine {
+        position: absolute;
+        top: -2px;
+        left: 0.4vw;
+        width: 35vw;
+    }
+
+    .Engineers p, .Raft p, .Enterprise p {
+        font-weight: 200;
+    }
+
+.Raft {
+    padding-top: 100px;
+}
+
+.Enterprise div {
+    position: relative;
+    padding: 20px;
+}
+
+.Enterprise .EnterpriseBulbLine {
+    left: 10vw;
+    top: -5vw;
+    position: absolute;
+    max-width: 40vw;
+}
+
+.Ecosystem {
+    margin-top: 100px;
+    background-color: rgb(41, 46, 56);
+    padding: 70px 0;
+    color: #fff;
+}
+
+    .Ecosystem img {
+        margin-top: 100px;
+    }
+
+    .Ecosystem .keywords {
+        position: relative;
+    }
+
+        /* Keywords */
+        /* General settings */
+        .Ecosystem .keywords p {
+            position: absolute;
+        }
+
+        .Ecosystem .keywords.before p::before, .Ecosystem .keywords.after p::after {
+            content: url('../assets/plusSign.png');
+            transform: scale(.7);
+            position: absolute;
+        }
+
+        .Ecosystem .keywords.before p::before {
+            left: -25px;
+            top: -4px;
+        }
+
+        .Ecosystem .keywords.after p::after {
+            right: -35px;
+            top: -4px;
+        }
+
+        /* Custom Settings */
+
+        .Ecosystem .keywords .earn {
+            top: 25px;
+            left: 23vw;
+        }
+
+        .Ecosystem .keywords .learn {
+            top: -15px;
+            left: 18vw;
+        }
+
+        .Ecosystem .keywords .tools {
+            top: -15px;
+            left: 15vw;
+        }
+
+        .Ecosystem .keywords .collaborate {
+            width: auto;
+            top: 20px;
+            right: 20vw;
+        }
+
+        .Ecosystem .keywords .community {
+            top: 0px;
+            right: 16vw;
+        }
+
+        .Ecosystem .keywords .balance {
+            top: -25px;
+            right: 14vw;
+        }
+
+.Team .title {
+    margin: 20vw 0 0 25px;
+}
+
+.Team .downLine {
+    width: 130%;
+    margin-left: 10px;
+}
+
+.Team .contact {
+    margin-left: 10px;
+}
+
+.Team .Gallery img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.Team .Gallery .profile {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .Team .Gallery .profile .name {
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .Team .Gallery .profile .role {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+
+    .Team .Gallery .profile .profileSeat img {
+        height: 250px;
+        width: 250px;
+    }
+
+.Team .Figures {
+    width: 90%;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: rgb(41, 46, 56);
+    color: rgba(255,255,255,.55);
+    font-weight: 200;
+    padding: 70px 0;
+    overflow: hidden;
+}
+
+    footer .logo {
+        padding: 0 20px;
+    }
+
+li {
+    list-style-type: none;
+}
+
+.nav-link {
+    font-weight: 200;
+    color: rgba(255,255,255,.55);
+}
+
+    .nav-link:hover {
+        color: #fff;
+    }
+
+/* Media */
+
+@media(max-width: 1400px) {
+    .Engineers .bulbLine {
+        left: -0.3vw;
+        width: 38vw;
+    }
+
+    .Ecosystem .keywords .collaborate {
+        top: 20px;
+        right: 28vw;
+    }
+
+    .Ecosystem .keywords .community {
+        top: -25px;
+        right: 22vw;
+    }
+
+    .Ecosystem .keywords .balance {
+        top: -25px;
+        right: 22vw;
+    }
+}
+
+@media(max-width: 1000px) {
+    /* Main */
+    #Freedome {
+        --width: 100%;
+        background-position: top;
+        background-image: url("../assets//smallMainBulbs.png");
+    }
+
+    .info-divider {
+        height: 95vw;
+    }
+
+    .freedome h2 {
+        font-size: 44px;
+    }
+
+    .freedome p {
+        font-size: 12px;
+    }
+
+    .vendorLock div {
+        font-size: 0.9vw;
+    }
+
+        .vendorLock div h6 {
+            font-size: 1.3vw;
+        }
+
+    .vendorLockimg {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .form .buttonRow {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .form h3 {
+        font-size: 15px;
+    }
+
+    .form input::placeholder {
+        font-size: 10px;
+    }
+
+    .form h6 {
+        font-size: 9px;
+        margin-top: 10px;
+    }
+
+    .form button {
+        width: 100%;
+    }
+
+    .hotPrototyping div {
+        left: 22.5vw;
+        top: 40%;
+    }
+
+        .hotPrototyping div h6 {
+            font-size: 1vw;
+        }
+
+    .smallInfo-divider {
+        height: 15vw;
+    }
+
+    .universalSoftware div h6 {
+        font-size: 1vw;
+    }
+
+    .universalSoftware div {
+        top: 35%;
+        left: 31.5vw;
+    }
+
+    /* Engineers */
+
+    .Engineers .bulbLine {
+        position: absolute;
+        top: -1px;
+        left: calc(20vw - 112px);
+        width: 48vw;
+    }
+
+    .Engineers .title {
+        font-size: 22px;
+    }
+
+    .Engineers p {
+        font-size: 1vw;
+    }
+
+    .Engineers .roles .role {
+        width: 120vw;
+        margin-top: 0px;
+    }
+
+        .Engineers .roles .role p {
+            line-height: 10px;
+        }
+
+        .Engineers .roles .role img {
+            width: calc(6vw - 5px);
+        }
+
+    /* Raft/Enterprise */
+    .Raft .title, .Enterprise .title {
+        font-size: 22px;
+    }
+
+    .Raft p, .Enterprise p {
+        font-size: 1.3vw;
+    }
+
+    .Enterprise .EnterpriseBulbLine {
+        left: 10vw;
+        top: -3vw;
+        position: absolute;
+        max-width: 40vw;
+    }
+
+    /* Ecosystem */
+    .Ecosystem {
+        margin-top: 70px;
+        background-color: rgb(41, 46, 56);
+        padding: 70px 0;
+        color: #fff;
+    }
+
+        .Ecosystem .row {
+            justify-content: center;
+        }
+
+        .Ecosystem .firstRow, .Ecosystem .secondRow {
+            font-size: 12px;
+        }
+
+        .Ecosystem .firstRow {
+            position: absolute;
+            left: 30px;
+            top: 40px;
+            gap: 30px !important;
+        }
+
+        .Ecosystem .secondRow {
+            position: absolute;
+            right: 10px;
+            top: 30px;
+            gap: 50px !important;
+        }
+
+        .Ecosystem .keywords.after p::after {
+            top: -5px;
+        }
+
+        /* Custom Settings */
+
+        .Ecosystem .keywords .earn {
+            top: -15px;
+            left: 26vw;
+        }
+
+        .Ecosystem .keywords .learn {
+            top: -40px;
+            left: 19vw;
+        }
+
+        .Ecosystem .keywords .tools {
+            top: -30px;
+            left: 15vw;
+        }
+
+        .Ecosystem .keywords .collaborate {
+            width: auto;
+            top: -8px;
+            right: 27vw;
+        }
+
+        .Ecosystem .keywords .community {
+            top: -30px;
+            right: 20vw;
+        }
+
+        .Ecosystem .keywords .balance {
+            top: -35px;
+            right: 18vw;
+        }
+
+    .Team .Gallery img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Team .Gallery .profile .profileSeat img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .Team .title, .Team .contact {
+        font-size: 22px;
+    }
+
+    .Team .downLine, .Team .contact {
+        margin-left: 20px;
+    }
+
+    .Team .Gallery .profile .name {
+        font-size: 13px;
+    }
+
+    .Team .Gallery .profile .role {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 720px) {
+    /* Main */
+
+    .info-divider {
+        height: 65vw;
+    }
+
+    .freedome h2 {
+        font-size: 35px;
+    }
+
+    .freedome p {
+        width: 200px;
+        font-size: 11px;
+    }
+
+    .vendorLock .vendorText, .hotPrototyping .hotPrototypingText, .universalSoftware .universalSoftwareText {
+        display: none;
+    }
+
+    .vendorLockimg {
+        display: none;
+    }
+
+    .vendorLock img {
+        content: url("../assets/smallVendorLock.png");
+        width: 130px;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .hotPrototyping img {
+        content: url("../assets/smallSwapPrototyping.png");
+        width: 130px;
+    }
+
+    .universalSoftware img {
+        content: url("../assets/smallUniversalSoftware.png");
+        width: 130px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    /* Engineers */
+
+    .Engineers .bulbLine {
+        top: -25px;
+        left: calc(30vw - 217px);
+        width: 380px;
+    }
+
+    .Engineers p {
+        font-size: 1.3vw;
+    }
+
+    /* Raft/Enterprise */
+    .Raft .title, .Enterprise .title {
+        font-size: 18px;
+    }
+
+    .Raft p, .Enterprise p {
+        font-size: 1.3vw;
+    }
+
+    .Enterprise .EnterpriseBulbLine {
+        left: 5vw;
+        top: 3vw;
+        max-width: 40vw;
+    }
+
+    /* Ecosystem */
+    .Ecosystem {
+        padding: 50px 0;
+    }
+
+        .Ecosystem .firstRow, .Ecosystem .secondRow {
+            width: 0px;
+            right: 100px;
+        }
+
+            .Ecosystem .secondRow > div, .Ecosystem .firstRow > div {
+                visibility: hidden;
+                width: none;
+                height: none;
+                line-height: 0;
+            }
+
+                .Ecosystem .secondRow > div .keyword, .Ecosystem .firstRow div > .keyword {
+                    visibility: visible;
+                }
+
+        .Ecosystem .keywords {
+            font-size: 16px;
+        }
+
+            .Ecosystem .keywords.after p::after {
+                top: -15px;
+            }
+
+            .Ecosystem .keywords.before p::before {
+                top: -15px;
+            }
+
+            /* Custom Settings */
+
+            .Ecosystem .keywords .earn {
+                top: -10px;
+                left: 20vw;
+            }
+
+            .Ecosystem .keywords .learn {
+                top: 40px;
+                left: 12vw;
+            }
+
+            .Ecosystem .keywords .tools {
+                top: 80px;
+                left: 8vw;
+            }
+
+            .Ecosystem .keywords .collaborate {
+                top: 5px;
+                right: 14vw;
+            }
+
+            .Ecosystem .keywords .community {
+                top: 20px;
+                right: 8vw;
+            }
+
+            .Ecosystem .keywords .balance {
+                top: 45px;
+                right: 8vw;
+            }
+
+    .Line90Degrees {
+        margin-top: 60px !important;
+    }
+
+    .Team .title, .Team .contact {
+        font-size: 22px;
+    }
+
+    .Team .downLine, .Team .contact {
+        margin-left: 20px;
+    }
+
+    .Team .Gallery .profile .name {
+        font-size: 13px;
+    }
+
+    .Team .Gallery .profile .role {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 576px) {
+    /* Nav */
+    nav .navbar-brand img {
+        height: 50px;
+    }
+
+    nav .navbar-brand p {
+        font-size: 22px;
+    }
+    /* Main */
+    #Freedome {
+        background-position: top;
+        background-image: url("../assets/extraSmallMainBulb.png");
+        background-size: 120vw auto;
+    }
+
+    .info-divider {
+        height: 55vw;
+    }
+
+    .freedome h2 {
+        font-size: 35px;
+    }
+
+    .freedome p {
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .vendorLock img, .hotPrototyping img {
+        width: 35vw;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .universalSoftware img {
+        width: 45vw;
+    }
+
+    .questionMarkContainer {
+        visibility: hidden;
+    }
+
+    .formContainer {
+        height: 400px;
+    }
+
+    .form {
+        position: absolute;
+        width: 60vw;
+    }
+
+    /* Engineers */
+
+    .Engineers .bulbLine {
+        content: url("../assets/smallBulbLine2.png");
+        top: -1px;
+        /* left: calc(31vw - 132px);
+      width: 240px; */
+        width: 140px;
+        left: calc(30vw - 125px);
+    }
+
+    .Engineers div {
+        margin: 0;
+    }
+
+    .Engineers .roles .role {
+        width: 45px;
+        padding: 5px;
+    }
+
+        .Engineers .roles .role img {
+            width: 100%;
+        }
+
+        .Engineers .roles .role p {
+            font-size: 9px;
+            line-height: 14px;
+        }
+
+    .Engineers .roles {
+        flex-wrap: wrap;
+    }
+
+    .Engineers .title {
+        font-size: 17px;
+    }
+
+    .Engineers .text {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    /* Raft/Enterprise */
+    .Raft .title, .Enterprise .title {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .Raft p, .Enterprise p {
+        font-size: 10px;
+    }
+
+    .Enterprise .EnterpriseBulbLine {
+        position: relative;
+        display: block;
+        content: url("../assets/smallEnterpriseBulbLine.png");
+        max-width: none;
+        top: 0;
+        left: 0;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Ecosystem */
+    .Ecosystem {
+        padding: 50px 0;
+    }
+
+        .Ecosystem .title {
+            font-size: 17px;
+            text-align: center;
+        }
+
+        .Ecosystem .businessBulb {
+            margin-top: 50px;
+            width: 265px;
+        }
+
+        .Ecosystem .keywords.before p::before, .Ecosystem .keywords.after p::after {
+            transform: scale(.6);
+        }
+
+        .Ecosystem .keywords {
+            font-size: 14px;
+        }
+
+            .Ecosystem .keywords.after p::after {
+                top: -15px;
+                right: -35px;
+            }
+
+            .Ecosystem .keywords.before p::before {
+                top: -14px;
+            }
+
+            /* Custom Settings */
+
+            .Ecosystem .keywords .earn {
+                top: -50px;
+                left: 13vw;
+            }
+
+            .Ecosystem .keywords .learn {
+                top: -45px;
+                left: 4vw;
+            }
+
+            .Ecosystem .keywords .tools {
+                top: -30px;
+                left: 0vw;
+            }
+
+            .Ecosystem .keywords .collaborate {
+                top: -40px;
+                right: 14vw;
+            }
+
+            .Ecosystem .keywords.after .collaborate::after {
+                right: -50px;
+            }
+
+            .Ecosystem .keywords .community {
+                top: -55px;
+                right: 1vw;
+            }
+
+            .Ecosystem .keywords .balance {
+                top: -65px;
+                right: 2vw;
+            }
+
+    .Line90Degrees {
+        margin-top: 20px !important;
+    }
+
+    .smallInfo-divider {
+        height: 5vw;
+    }
+
+    .Team .title, .Team .contact {
+        font-size: 17px;
+    }
+
+    .Team .title {
+        margin-left: -20px;
+    }
+
+    .Team .downLine {
+        content: url("../assets/smallDownLine.png");
+        width: 8vw;
+        margin: 10px 0 0 -4.5vw;
+    }
+
+    .Team .contact {
+        margin-left: -4.5vw;
+    }
+
+    .Team .Gallery .profile .name {
+        font-size: 13px;
+    }
+
+    .Team .Gallery .profile .role {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+
+    .Team .Gallery img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .Team .Gallery .profile .profileSeat img {
+        height: 100px;
+        width: 100px;
+    }
+
+    /* Footer */
+    footer {
+        background-color: rgb(41, 46, 56);
+        color: rgba(255,255,255,.55);
+        font-weight: 200;
+        padding: 70px 0;
+    }
+
+        footer ul {
+            padding: 10px 0;
+        }
+
+        footer .logo {
+            padding: 0 10px;
+        }
+}
